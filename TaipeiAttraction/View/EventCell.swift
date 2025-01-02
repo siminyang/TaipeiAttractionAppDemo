@@ -14,7 +14,7 @@ class EventCell: UICollectionViewCell {
 
     private let titleLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .black
+        label.textColor = .label // 系統顏色
         label.font = .systemFont(ofSize: 16, weight: .semibold)
         label.numberOfLines = 2
         label.textAlignment = .left

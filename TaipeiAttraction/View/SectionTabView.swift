@@ -27,7 +27,7 @@ class SectionTabView: UIView {
     private let newsButton: UIButton = {
         let button = UIButton()
         button.setTitle("最新消息", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        button.setTitleColor(.label, for: .normal)
         button.tag = Section.events.rawValue
         return button
     }()
@@ -35,7 +35,7 @@ class SectionTabView: UIView {
     private let attractionsButton: UIButton = {
         let button = UIButton()
         button.setTitle("旅遊景點", for: .normal)
-        button.setTitleColor(.black, for: .normal)
+        button.setTitleColor(.label, for: .normal) // 系統顏色
         button.tag = Section.attractions.rawValue
         return button
     }()
